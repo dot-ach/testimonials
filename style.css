@@ -1,0 +1,15 @@
+:root{
+  --Moderate-violet: #7541c8;
+  --Very-dark-grayish-blue: #48556a;
+  --Very-dark-blackish-blue: #19212e;
+  --White: #ffffff;
+  --Light-gray: #cfcfcf;
+  --Light-grayish-blue: #ecf2f8;
+}
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
