@@ -5,6 +5,7 @@
   --White: #ffffff;
   --Light-gray: #cfcfcf;
   --Light-grayish-blue: #ecf2f8;
+  --Backround:  #edf2f8;
 }
 *{
   box-sizing: border-box;
@@ -12,4 +13,60 @@
   margin: 0;
   font-size: 62.5%;
   font-family: 'Barlow Semi Condensed', sans-serif;
+}
+body{
+  background-color: var(--Backround);
+}
+.card{
+  font-size: 5rem;
+  background-color: var(--Moderate-violet);
+  border-radius: 10px;
+  padding: 24px;
+  margin: 24px;
+  color: var(--Light-grayish-blue);
+  font-weight: 500;
+}
+img{
+  width: 36px;
+  border-radius: 25px;
+  margin-right: 16px;
+}
+.CardN1{
+  background-color: var(--Moderate-violet);
+}
+.card1_name-section img{
+  border: 2px solid #9a7bca;
+}
+.card1_name-section p{
+  font-size: 1.8rem;
+  color: #9a7bca;
+}
+.card1_name-section p strong{
+  font-size: 1.8rem;
+  color: var(--White);
+}
+.card1-testimony-section p:nth-child(2){
+  color: #9a7bca;
+  font-size: 1.6rem;
+  margin-top: 12px;
+}
+.CardN2{
+  background-color: var(--Very-dark-grayish-blue);
+}
+.CardN3{
+  background-color: var(--Light-grayish-blue);
+  color: var(--Very-dark-grayish-blue);
+}
+.CardN4{
+  background-color: var(--Very-dark-blackish-blue);
+}
+.CardN5{
+  background-color: var(--White);
+  color: var(--Very-dark-blackish-blue);
+}
+
+.card-name{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
 }
