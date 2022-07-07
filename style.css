@@ -37,16 +37,41 @@ img{
 .card1_name-section img{
   border: 2px solid #9a7bca;
 }
-.card1_name-section p{
-  font-size: 1.8rem;
-  color: #9a7bca;
+.card4_name-section img{
+  border: 2px solid #9a7bca;
 }
-.card1_name-section p strong{
+.card1_name-section p,
+.card2_name-section p,
+.card4_name-section p{
+  font-size: 1.4rem;
+  color: #9ca5b5;
+}
+.card3_name-section p,
+.card5_name-section p{
+  font-size: 1.4rem;
+}
+.card1_name-section p strong,
+.card2_name-section p strong,
+.card4_name-section p strong{
   font-size: 1.8rem;
   color: var(--White);
 }
-.card1-testimony-section p:nth-child(2){
-  color: #9a7bca;
+.card3_name-section p strong,
+.card5_name-section p strong{
+  font-size: 1.8rem;
+}
+.card5-testimony-section p:nth-child(1),.card5-testimony-section p:nth-child(2),
+.card5-testimony-section p:nth-child(3),
+.card5-testimony-section p:nth-child(4),
+.card5-testimony-section p:nth-child(5){
+  font-weight: 600;
+}
+.card1-testimony-section p:nth-child(2),
+.card2-testimony-section p:nth-child(2),
+.card3-testimony-section p:nth-child(2),
+.card4-testimony-section p:nth-child(2),
+.card5-testimony-section p:nth-child(2){
+  color: #9ca5b5;
   font-size: 1.6rem;
   margin-top: 12px;
 }
@@ -54,7 +79,7 @@ img{
   background-color: var(--Very-dark-grayish-blue);
 }
 .CardN3{
-  background-color: var(--Light-grayish-blue);
+  background-color: var(--White);
   color: var(--Very-dark-grayish-blue);
 }
 .CardN4{
