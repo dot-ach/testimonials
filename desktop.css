@@ -1,0 +1,26 @@
+main{
+  display: grid;
+  grid-template-areas: 
+  'card-1 card-1 card-2 card-5'
+  'card-3 card-4 card-4 card-5';
+  place-content: center;
+  gap: 18px;
+  height: 100vh;
+  padding: 12px;
+}
+.card{margin: 0;}
+.CardN1{
+  grid-area: card-1;
+}
+.CardN2{
+  grid-area: card-2;
+}
+.CardN3{
+  grid-area: card-3;
+}
+.CardN4{
+  grid-area: card-4;
+}
+.CardN5{
+  grid-area: card-5;
+}
